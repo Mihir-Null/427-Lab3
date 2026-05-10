@@ -1,5 +1,7 @@
 # CMSC427 Lab 03 Report: Transforms, Textures & Lights
 
+**Live demo:** https://mihir-null.github.io/427-Lab3/
+
 This lab renders a checkerboard-textured cube lit by a configurable spotlight, viewed through an orbiting camera that can toggle between perspective and orthographic projection. It extends lab 02 with surface normals (needed for lighting), texture sampling, a depth buffer (needed for correct face ordering), and a Blinn-Phong shading model. The main structural addition is four bind groups — one per data stream — which is the maximum wgpu supports by default. 
 
 Again, I used the same [learn-wgpu tutorial](https://sotrh.github.io/learn-wgpu/) reference throughout and AI tools for understanding concepts only. VSCode extensions were used for linting.
